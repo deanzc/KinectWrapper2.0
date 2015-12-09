@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Wrapper">
+      <UniqueIdentifier>{0b9a8697-093b-4641-87f2-fd3b9f102548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrapper\Readers">
+      <UniqueIdentifier>{621c1e92-bbcc-417d-afc1-f619be94b69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrapper\Readers\ReaderEx">
+      <UniqueIdentifier>{a600493c-04be-48ab-a6c4-9246e1f66f59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectData.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectWrapper.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="InfraredReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyIndexReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="LongExposureInfraredReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="VGBReader.h">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="HDFaceReader.h">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceReader.h">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSourceReader.h">
+      <Filter>Wrapper\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderEx.h">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectData.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectWrapper.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="InfraredReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyIndexReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="LongExposureInfraredReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="VGBReader.cpp">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClCompile>
+    <ClCompile Include="HDFaceReader.cpp">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceReader.cpp">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSourceReader.cpp">
+      <Filter>Wrapper\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderEx.cpp">
+      <Filter>Wrapper\Readers\ReaderEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
